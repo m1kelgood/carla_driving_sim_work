@@ -18,7 +18,6 @@ venv/
 # CARLA-related ignores
 # -------------------------
 # Never commit CARLA installation files
-CARLA_*/
 UnrealEngine/
 *.egg
 *.whl
