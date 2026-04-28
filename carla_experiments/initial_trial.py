@@ -1,9 +1,12 @@
 import sys
 # Need this for file control so programs can be developed outside of the installation path
-f_path = '''c:/Users/mikel/Downloads/Other Important Things/RWTH-Aachen Stuff/
-            Indpendent_Study/CARLA_0.9.15/WindowsNoEditor/PythonAPI/carla/dist
-            carla-0.9.15-py3.7-win-amd64.egg'''
+# Need this for file control so programs can be developed outside of the installation path
+f_path = r"C:\Users\mikel\Downloads\Other Important Things\RWTH-Aachen Stuff\Indpendent_Study\carla_driving_sim_work\carla\dist\carla-0.9.15-py3.7-win-amd64.egg"
+
+agent_path = r"C:\Users\mikel\Downloads\Other Important Things\RWTH-Aachen Stuff\Indpendent_Study\carla_driving_sim_work\carla"
+
 sys.path.append(f_path)
+sys.path.append(agent_path)
 
 import carla
 import random
