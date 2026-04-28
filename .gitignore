@@ -1,0 +1,50 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# -------------------------
+# CARLA-related ignores
+# -------------------------
+# Never commit CARLA installation files
+CARLA_*/
+UnrealEngine/
+*.egg
+*.whl
+
+# CARLA-generated data
+*.log
+*.csv
+*.json
+*.png
+*.pcd
+*.ply
+*.mp4
+recordings/
+logs/
+output/
+data/
+
+# -------------------------
+# IDE / Editor files
+# -------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# -------------------------
+# OS files
+# -------------------------
+.DS_Store
+Thumbs.db
